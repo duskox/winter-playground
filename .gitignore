@@ -35,3 +35,8 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Ignore all files in config due to sensitivity of data there,
+# except example files.
+/src/config/*
+!/src/config/*.example.yml
